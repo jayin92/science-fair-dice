@@ -118,8 +118,7 @@ for k in range(len(m_result)):
 #約分成最簡分數
 divisor = math.gcd(win_total, win_times)#math.gcd()為求最大公因數之函數 為內建函式庫之函式
 #約分
-win_times_temp = win_times / divisor
-win_total_temp = win_total / divisor
+
 
 #輸出結果
 
@@ -147,8 +146,8 @@ for item in n_result_print_color:
 		print(' ',end='\n')
 for i in range(2):
 	print('')
-print("贏的次數: ", float(win_times))
-print("平手的次數: ",float(even_times))
-print("輸的次數: ",float(lose_times))
-print("總次數: ",float(win_total))
+print("贏的次數: ", win_times)
+print("平手的次數: ", even_times)
+print("輸的次數: ", lose_times)
+print("總次數: ",win_total)
 print("勝率 (%) : ", round(win_times / win_total * 100,2)," %")#round()為四捨五入之函式
