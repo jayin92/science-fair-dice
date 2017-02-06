@@ -2,6 +2,7 @@
 import math
 import sys
 import os
+from dicelib import *
 from termcolor import colored, cprint
 import xlsxwriter
 def muti(q,k):

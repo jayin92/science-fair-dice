@@ -3,6 +3,7 @@ import math
 import sys
 import os
 from termcolor import colored, cprint
+from dicelib import *
 import xlsxwriter
 def muti(q,k):
 	#q為陣列 k為整數
